@@ -121,7 +121,7 @@ Telemetry will **never, under any circumstances**, collect or transmit:
 
 #### 5.3 How to disable; notice
 - **First-run notice:** on first run the Software gives a one-time notice in the console and WebUI that telemetry is on by default and how to disable it.
-- **One switch off:** disable any time via the `SNOWLUMA_TELEMETRY=0` environment variable, a config option, or the WebUI toggle; collection stops immediately.
+- **One switch off:** disable it at any time via the `SNOWLUMA_TELEMETRY=0` environment variable, a config option, or the WebUI toggle; collection stops immediately.
 
 #### 5.4 Use, sharing, retention
 Telemetry is used **only to improve the Software**, is **never sold or shared with any third party**, and is retained only in anonymous aggregate form for as long as necessary.
