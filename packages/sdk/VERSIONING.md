@@ -15,7 +15,7 @@ The current Node.js requirement is `^24.22.1 || >=26.12.1`. Use the repository's
 
 The SDK is an ES module package that supports native Node.js imports and bundler consumers. Its build uses `NodeNext`; relative source imports and re-exports must use `.js` specifiers so both emitted JavaScript and declarations resolve without a bundler. Package tests compile fresh output, load every runtime entry point with Node.js, and typecheck consumers with both NodeNext and bundler resolution.
 
-- Major: removes or changes a public export, changes runtime behavior incompatibly, changes supported Node version, or removes/changes an existing package subpath.
+- Major: removes or changes a public export, changes runtime behavior incompatibly, changes the supported Node version, or removes/changes an existing package subpath.
 - Minor: adds new public API or package subpaths, supports new SnowLuma actions, adds optional parameters, or adds error subclasses.
 - Patch: fixes bugs, improves docs, narrows implementation details without breaking public types, or updates action metadata without changing call signatures.
 
